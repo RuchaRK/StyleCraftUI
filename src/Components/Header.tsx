@@ -27,15 +27,16 @@ export const Header = () => {
         <Button
           varient="contained"
           onClick={() => {
-            const key = Object.keys(
-              uiComponentRouteAndComponentMap
-            ).find((key) =>
+            const componentKeys =  Object.keys(
+              uiComponentRouteAndComponentMap 
+            ) as (keyof (typeof uiComponentRouteAndComponentMap))[]
+            const key = componentKeys.find((key) =>
               key.toLowerCase().includes(searchString.toLowerCase())
             );
             if (!key) {
               navigate("/component-not-found");
             } else {
-              navigate(uiComponentRouteAndComponentMap[key].path);
+              navigate(`/components/${uiComponentRouteAndComponentMap[key].path}`);
             }
           }}
         >
