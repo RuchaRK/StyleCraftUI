@@ -22,6 +22,7 @@ const getSizeCssClass = (size: ButtonProps["size"]): string => {
       return "medium-size";
     }
   }
+  return "medium-size"
 };
 
 const getPrimaryVariantClass = (varient: ButtonProps["varient"]): string => {
@@ -36,6 +37,7 @@ const getPrimaryVariantClass = (varient: ButtonProps["varient"]): string => {
       return "text-primary";
     }
   }
+  return "contained-primary"
 };
 
 const getSecondaryVarientClass = (varient: ButtonProps["varient"]): string => {
@@ -50,6 +52,7 @@ const getSecondaryVarientClass = (varient: ButtonProps["varient"]): string => {
       return "text-secondary";
     }
   }
+  return "contained-secondary"
 };
 
 export const Button: React.FC<ButtonProps> = ({
