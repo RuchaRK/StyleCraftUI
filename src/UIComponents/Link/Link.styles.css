@@ -1,0 +1,20 @@
+.link-base {
+  color: var(--primary-main);
+  text-decoration: underline;
+}
+
+.always-underline {
+  text-decoration: underline;
+}
+
+.hover-underline {
+  text-decoration: none;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}

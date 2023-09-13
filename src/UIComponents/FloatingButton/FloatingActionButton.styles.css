@@ -1,0 +1,61 @@
+.floating-base-button {
+  padding: 0px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.floating-small-size {
+  font-size: 13px;
+  height: 20px;
+  width: 20px;
+}
+
+.floating-medium-size {
+  font-size: 20px;
+  height: 28px;
+  width: 28px;
+}
+
+.floating-large-size {
+  font-size: 30px;
+  height: 36px;
+  width: 36px;
+}
+
+.floating-color-primary {
+  color: var(--primary-main);
+}
+
+.floating-fcolor-primay:hover {
+  background: var(--primary-light);
+}
+
+.floating-color-primary:disabled {
+  color: var(--disabled);
+}
+
+.floating-color-primary:hover:disabled {
+  color: var(--disabled);
+}
+
+.floating-color-secondary {
+  color: var(--secondary-main);
+}
+
+.floating-color-secondary:hover {
+  background-color: var(--secondary-light);
+}
+
+.floating-color-secondary:disabled {
+  color: var(--disabled);
+}
+
+.floating-color-secondary:hover:disabled {
+  color: var(--disabled);
+}

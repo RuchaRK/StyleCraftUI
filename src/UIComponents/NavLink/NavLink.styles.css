@@ -1,0 +1,14 @@
+.navlink {
+  color: var(--text-disabled);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navlink-active {
+  color: var(--primary-main);
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: var(--primary-main);
+}

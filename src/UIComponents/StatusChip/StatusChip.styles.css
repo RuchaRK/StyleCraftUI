@@ -1,0 +1,32 @@
+.chip-base {
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.chip-default {
+  color: black;
+}
+
+.chip-error {
+  color: var(--text-light);
+  background-color: var(--error-main);
+}
+
+.chip-info {
+  color: var(--text-light);
+  background-color: var(--info-main);
+}
+
+.chip-success {
+  color: var(--text-light);
+  background-color: var(--success-main);
+}
+
+.chip-warn {
+  color: var(--text-light);
+  background-color: var(--warn-main);
+}

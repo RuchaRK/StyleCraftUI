@@ -1,0 +1,32 @@
+.badge-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.badge {
+  color: white;
+  border-radius: 4px;
+  padding: 2px 4px;
+  position: absolute;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  position: absolute;
+  padding: 0px 6px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 10px;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  transform: scale(1) translate(70%, -50%);
+}
+
+.badge-primary {
+  background-color: var(--primary-main);
+}
+
+.badge-secondary {
+  background-color: var(--secondary-main);
+}

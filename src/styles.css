@@ -1,0 +1,49 @@
+:root {
+  --primary-main: #d23f57;
+  --primary-dark: #98314c;
+  --primary-light: #ea92a7;
+  --primary-backdrop: #fae4e9;
+
+  --secondary-main: #00997a;
+  --secondary-light: #b2e0d5;
+  --secondary-dark: #006c51;
+
+  --text-dark: rgba(0, 0, 0, 0.87);
+  --text-light: #fff;
+  --text-disabled: rgba(0, 0, 0, 0.26);
+
+  --disabled: rgba(0, 0, 0, 0.12);
+
+  --lightBorder: rgba(0, 0, 0, 0.18);
+
+  --error-main: #d32f2f;
+  --error-light: #ef53502d;
+
+  --info-main: #0288d1;
+  --info-light: #03a8f42d;
+
+  --warn-main: #ed6c02;
+  --warn-light: #ff98002d;
+
+  --success-main: #2e7d32;
+  --success-light: #4caf502d;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}

@@ -1,0 +1,68 @@
+.card {
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  gap: 16px;
+}
+
+.card-vertical {
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+}
+
+.card > img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-horizontal > img {
+  height: 100%;
+  width: 250px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.card-hanged-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  gap: 8px;
+}
+
+.card-horizontal {
+  flex-direction: row;
+  height: 200px;
+  width: 800px;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-text-overlay {
+  position: relative;
+}
+
+.card-text-overlay > img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-text-overlay > .card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(223, 218, 218, 0.507);
+}
