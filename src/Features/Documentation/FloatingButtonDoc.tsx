@@ -2,7 +2,6 @@ import { Documentation } from "../../Components/Documentation";
 import { FloatingActionButton } from "../../UIComponents/FloatingButton/FloatingActionButton";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
 import { AiFillHome, AiFillDelete } from "react-icons/ai";
-import * as React from "react";
 
 export const FloatingButtonDoc = () => {
   return (

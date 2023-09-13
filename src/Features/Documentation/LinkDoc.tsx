@@ -1,7 +1,6 @@
 import { Documentation } from "../../Components/Documentation";
 import { Link } from "../../UIComponents/Link/Link";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 
 export const LinkDoc = () => {
   return (

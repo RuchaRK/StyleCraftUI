@@ -1,14 +1,14 @@
 import * as React from "react";
 import "./Link.styles.css";
-import { Link as RouterLink } from "react-router-dom";
+import { LinkProps, Link as RouterLink } from "react-router-dom";
 
-interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface Props extends LinkProps {
   children?: React.ReactNode;
   underline?: "always" | "hover" | "none";
   to: string;
 }
 
-const getUnderlineCSSClass = (size: LinkProps["underline"]): string => {
+const getUnderlineCSSClass = (size: Props["underline"]): string => {
   switch (size) {
     case "always":
       return "always-underline";
@@ -20,7 +20,7 @@ const getUnderlineCSSClass = (size: LinkProps["underline"]): string => {
   return "always-underline";
 };
 
-export const Link: React.FC<LinkProps> = ({
+export const Link: React.FC<Props> = ({
   children,
   underline = "always",
   to,

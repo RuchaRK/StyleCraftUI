@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Avatar.styles.css";
 
-interface Props {
+interface Props extends Pick<React.HTMLAttributes<HTMLDivElement>, "style"| "onClick">{
   size?: "small" | "large" | "medium";
   variant?: "circular" | "square";
 }

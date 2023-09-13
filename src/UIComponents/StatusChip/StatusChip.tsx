@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./StatusChip.styles.css";
 
-interface Props {
+interface Props extends Pick<React.HTMLAttributes<HTMLDivElement>, "style"| "onClick">{
   severity?: "warning" | "success" | "info" | "error" | "default";
   children: React.ReactNode;
 }
@@ -19,6 +19,7 @@ const getFilledVariantCSSClass = (severity: Props["severity"]): string => {
     case "default":
       return "chip-default";
   }
+  return "chip-default";
 };
 
 export const StatusChip: React.FC<Props> = ({

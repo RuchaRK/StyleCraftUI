@@ -1,7 +1,6 @@
 import { Documentation } from "../../Components/Documentation";
 import { Card } from "../../UIComponents/Card/Card";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 
 export const CardDoc = () => {
   return (

@@ -1,6 +1,5 @@
 import { Documentation } from "../../Components/Documentation";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 import { Badge } from "../../UIComponents/Badge/Badge";
 import { BsAirplane } from "react-icons/bs";
 import { Avatar } from "../../UIComponents/Avatar/Avatar";

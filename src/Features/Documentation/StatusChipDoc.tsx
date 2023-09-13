@@ -1,6 +1,5 @@
 import { Documentation } from "../../Components/Documentation";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 import { StatusChip } from "../../UIComponents/StatusChip/StatusChip";
 
 export const StatusChipDoc = () => {

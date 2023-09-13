@@ -55,7 +55,7 @@ export const Alert: React.FC<Props> = ({
   children,
   variant = "outlined",
   hideIcon,
-  ...props
+  
 }) => {
   const variantClass =
     variant === "filled"
@@ -65,7 +65,7 @@ export const Alert: React.FC<Props> = ({
   const icon = getIcon(severity);
 
   return (
-    <div {...props} className={`alert-base  ${variantClass}`}>
+    <div className={`alert-base  ${variantClass}`}>
       {hideIcon ? null : icon}
       {children}
     </div>

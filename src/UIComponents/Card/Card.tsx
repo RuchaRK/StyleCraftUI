@@ -5,7 +5,7 @@ import { StatusChip } from "../StatusChip/StatusChip";
 import { AiOutlineClose } from "react-icons/ai";
 import { IconButton } from "../IconButton/IconButton";
 
-interface Props {
+interface Props extends Pick<React.HTMLAttributes<HTMLDivElement>, "style"| "onClick"> {
   title: string;
   discription: string;
   imgUrl?: string;
@@ -24,14 +24,15 @@ export const Card: React.FC<Props> = ({
   onDismissClick,
   showOverlayText,
   showShadow,
-  direction = "vertical"
+  direction = "vertical",
+  ...props
 }) => {
   const directionClass =
     direction === "vertical" ? "card-vertical" : "card-horizontal";
   const shdowClass = showShadow ? "card-shadow" : "";
   const overlayClass = showOverlayText ? "card-text-overlay" : "";
   return (
-    <div className={`card ${shdowClass} ${directionClass} ${overlayClass}`}>
+    <div {...props} className={`card ${shdowClass} ${directionClass} ${overlayClass}`}>
       {imgUrl && <img src={imgUrl} alt={title} />}
       <div className="card-text">
         <Text variant="h4">{title}</Text>

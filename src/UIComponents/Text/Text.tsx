@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Text.styles.css";
 
-type Props = {
+interface Props extends React.AllHTMLAttributes<HTMLDivElement> {
   variant:
     | "h1"
     | "h2"

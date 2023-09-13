@@ -1,6 +1,4 @@
-import * as React from "react";
 import { useNavigate } from "react-router-dom";
-
 import styled from "@emotion/styled";
 import { Button } from "../UIComponents/Button/Button";
 import { ButtonsContainer } from "../Components/Header.styles";

@@ -18,13 +18,14 @@ const getSizeCSSClass = (size: IconButtonProps["size"]): string => {
     case "large":
       return "icon-large-size";
   }
+  return "icon-medium-size"
 };
 
 const getColoCSSClass = (color: IconButtonProps["color"]): string => {
-  if (color === "primary") {
-    return "icon-color-primary";
+  if (color === "secondary") {
+    return "icon-color-secondary";
   }
-  return "icon-color-secondary";
+  return "icon-color-primary";
 };
 
 export const IconButton: React.FC<IconButtonProps> = ({

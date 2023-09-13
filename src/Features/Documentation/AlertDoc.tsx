@@ -1,6 +1,5 @@
 import { Documentation } from "../../Components/Documentation";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 import { Alert } from "../../UIComponents/Alert/Alert";
 
 export const AlertDoc = () => {

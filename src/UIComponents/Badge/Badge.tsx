@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Badge.styles.css";
 
-interface Props {
+interface Props extends Pick<React.HTMLAttributes<HTMLDivElement>, "style"| "onClick"> {
   color?: "primary" | "secondary";
   children: React.ReactNode;
   badgeContent: React.ReactNode;

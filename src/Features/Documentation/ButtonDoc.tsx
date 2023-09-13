@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Documentation } from "../../Components/Documentation";
 import { Button } from "../../UIComponents/Button/Button";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";

@@ -1,7 +1,6 @@
 import { Documentation } from "../../Components/Documentation";
 import { NavLink } from "../../UIComponents/NavLink/NavLink";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
-import * as React from "react";
 
 export const NavLinkDoc = () => {
   return (

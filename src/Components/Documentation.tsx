@@ -1,4 +1,3 @@
-import * as React from "react";
 import styled from "@emotion/styled";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { darcula } from "react-syntax-highlighter/dist/esm/styles/hljs";

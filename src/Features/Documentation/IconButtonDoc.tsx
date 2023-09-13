@@ -2,7 +2,6 @@ import { Documentation } from "../../Components/Documentation";
 import { IconButton } from "../../UIComponents/IconButton/IconButton";
 import { DocumentationWrapper } from "../../Components/DocumentationWrapper";
 import { AiFillHome, AiFillDelete } from "react-icons/ai";
-import * as React from "react";
 
 export const IconButtonDoc = () => {
   return (
